@@ -14,7 +14,7 @@ import java.io.FileReader;
 public class Prueba {
 
     public static void main(String[] args) {
-   
+   // ve 
         LeerDatos leer = new LeerDatos();
         leer.LeerDatos("Palabras.txt.txt");
         
