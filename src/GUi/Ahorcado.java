@@ -38,39 +38,50 @@ public class Ahorcado extends javax.swing.JFrame {
         button4 = new java.awt.Button();
         jButton10 = new javax.swing.JButton();
         jplnCentro = new javax.swing.JPanel();
+        jPanel9 = new javax.swing.JPanel();
+        jPanel11 = new javax.swing.JPanel();
         jPanel6 = new javax.swing.JPanel();
+        jButton2 = new javax.swing.JButton();
         jPanel7 = new javax.swing.JPanel();
+        jPanel13 = new javax.swing.JPanel();
+        jButton3 = new javax.swing.JButton();
+        jPanel14 = new javax.swing.JPanel();
+        jButton4 = new javax.swing.JButton();
+        jPanel8 = new javax.swing.JPanel();
+        jButton5 = new javax.swing.JButton();
+        jPanel12 = new javax.swing.JPanel();
+        jPanel10 = new javax.swing.JPanel();
         jplnArriba = new javax.swing.JPanel();
         jplnAbajo = new javax.swing.JPanel();
         jPanel1 = new javax.swing.JPanel();
         jPanel2 = new javax.swing.JPanel();
         A = new javax.swing.JButton();
         B = new javax.swing.JButton();
-        jButton3 = new javax.swing.JButton();
-        jButton4 = new javax.swing.JButton();
-        jButton5 = new javax.swing.JButton();
-        jButton6 = new javax.swing.JButton();
-        jButton7 = new javax.swing.JButton();
-        jButton8 = new javax.swing.JButton();
-        jButton9 = new javax.swing.JButton();
-        jButton11 = new javax.swing.JButton();
-        jButton12 = new javax.swing.JButton();
-        jButton13 = new javax.swing.JButton();
-        jButton14 = new javax.swing.JButton();
-        jButton15 = new javax.swing.JButton();
-        jButton16 = new javax.swing.JButton();
-        jButton17 = new javax.swing.JButton();
-        jButton18 = new javax.swing.JButton();
-        jButton19 = new javax.swing.JButton();
-        jButton20 = new javax.swing.JButton();
-        jButton21 = new javax.swing.JButton();
-        jButton22 = new javax.swing.JButton();
-        jButton23 = new javax.swing.JButton();
-        jButton24 = new javax.swing.JButton();
-        jButton25 = new javax.swing.JButton();
-        jButton26 = new javax.swing.JButton();
-        jButton27 = new javax.swing.JButton();
-        jButton28 = new javax.swing.JButton();
+        C = new javax.swing.JButton();
+        D = new javax.swing.JButton();
+        E = new javax.swing.JButton();
+        F = new javax.swing.JButton();
+        G = new javax.swing.JButton();
+        H = new javax.swing.JButton();
+        I = new javax.swing.JButton();
+        J = new javax.swing.JButton();
+        K = new javax.swing.JButton();
+        L = new javax.swing.JButton();
+        M = new javax.swing.JButton();
+        N = new javax.swing.JButton();
+        Ñ = new javax.swing.JButton();
+        O = new javax.swing.JButton();
+        P = new javax.swing.JButton();
+        Q = new javax.swing.JButton();
+        R = new javax.swing.JButton();
+        S = new javax.swing.JButton();
+        T = new javax.swing.JButton();
+        U = new javax.swing.JButton();
+        V = new javax.swing.JButton();
+        W = new javax.swing.JButton();
+        X = new javax.swing.JButton();
+        Y = new javax.swing.JButton();
+        Z = new javax.swing.JButton();
         jButton1 = new javax.swing.JButton();
         jPanel3 = new javax.swing.JPanel();
         jPanel4 = new javax.swing.JPanel();
@@ -84,31 +95,134 @@ public class Ahorcado extends javax.swing.JFrame {
 
         jplnCentro.setLayout(new java.awt.GridLayout(1, 2));
 
+        jPanel9.setLayout(new java.awt.GridLayout(2, 1));
+
+        jPanel11.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Menu", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Cooper Black", 0, 14), new java.awt.Color(0, 0, 0))); // NOI18N
+        jPanel11.setForeground(new java.awt.Color(0, 0, 0));
+        jPanel11.setLayout(new java.awt.GridLayout(3, 1));
+
+        jButton2.setFont(new java.awt.Font("Cooper Black", 0, 14)); // NOI18N
+        jButton2.setForeground(new java.awt.Color(0, 0, 0));
+        jButton2.setText("Generar palabra");
+
         javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
         jPanel6.setLayout(jPanel6Layout);
         jPanel6Layout.setHorizontalGroup(
             jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 505, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel6Layout.createSequentialGroup()
+                .addComponent(jButton2, javax.swing.GroupLayout.DEFAULT_SIZE, 446, Short.MAX_VALUE)
+                .addContainerGap())
         );
         jPanel6Layout.setVerticalGroup(
             jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 422, Short.MAX_VALUE)
+            .addGroup(jPanel6Layout.createSequentialGroup()
+                .addComponent(jButton2, javax.swing.GroupLayout.DEFAULT_SIZE, 47, Short.MAX_VALUE)
+                .addContainerGap())
         );
 
-        jplnCentro.add(jPanel6);
+        jPanel11.add(jPanel6);
 
-        javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
-        jPanel7.setLayout(jPanel7Layout);
-        jPanel7Layout.setHorizontalGroup(
-            jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 505, Short.MAX_VALUE)
+        jPanel7.setLayout(new java.awt.GridLayout(1, 2));
+
+        jButton3.setFont(new java.awt.Font("Cooper Black", 0, 14)); // NOI18N
+        jButton3.setForeground(new java.awt.Color(0, 0, 0));
+        jButton3.setText("Resolver");
+
+        javax.swing.GroupLayout jPanel13Layout = new javax.swing.GroupLayout(jPanel13);
+        jPanel13.setLayout(jPanel13Layout);
+        jPanel13Layout.setHorizontalGroup(
+            jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jButton3, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 228, Short.MAX_VALUE)
         );
-        jPanel7Layout.setVerticalGroup(
-            jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 422, Short.MAX_VALUE)
+        jPanel13Layout.setVerticalGroup(
+            jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel13Layout.createSequentialGroup()
+                .addComponent(jButton3, javax.swing.GroupLayout.DEFAULT_SIZE, 47, Short.MAX_VALUE)
+                .addContainerGap())
         );
 
-        jplnCentro.add(jPanel7);
+        jPanel7.add(jPanel13);
+
+        jButton4.setFont(new java.awt.Font("Cooper Black", 0, 14)); // NOI18N
+        jButton4.setForeground(new java.awt.Color(0, 0, 0));
+        jButton4.setText("Salir");
+
+        javax.swing.GroupLayout jPanel14Layout = new javax.swing.GroupLayout(jPanel14);
+        jPanel14.setLayout(jPanel14Layout);
+        jPanel14Layout.setHorizontalGroup(
+            jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel14Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jButton4, javax.swing.GroupLayout.DEFAULT_SIZE, 205, Short.MAX_VALUE)
+                .addContainerGap())
+        );
+        jPanel14Layout.setVerticalGroup(
+            jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel14Layout.createSequentialGroup()
+                .addComponent(jButton4, javax.swing.GroupLayout.DEFAULT_SIZE, 47, Short.MAX_VALUE)
+                .addContainerGap())
+        );
+
+        jPanel7.add(jPanel14);
+
+        jPanel11.add(jPanel7);
+
+        jButton5.setFont(new java.awt.Font("Cooper Black", 0, 14)); // NOI18N
+        jButton5.setForeground(new java.awt.Color(0, 0, 0));
+        jButton5.setText("Intrucciones");
+        jButton5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton5ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel8Layout = new javax.swing.GroupLayout(jPanel8);
+        jPanel8.setLayout(jPanel8Layout);
+        jPanel8Layout.setHorizontalGroup(
+            jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel8Layout.createSequentialGroup()
+                .addComponent(jButton5, javax.swing.GroupLayout.DEFAULT_SIZE, 446, Short.MAX_VALUE)
+                .addContainerGap())
+        );
+        jPanel8Layout.setVerticalGroup(
+            jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jButton5, javax.swing.GroupLayout.DEFAULT_SIZE, 58, Short.MAX_VALUE)
+        );
+
+        jPanel11.add(jPanel8);
+
+        jPanel9.add(jPanel11);
+
+        javax.swing.GroupLayout jPanel12Layout = new javax.swing.GroupLayout(jPanel12);
+        jPanel12.setLayout(jPanel12Layout);
+        jPanel12Layout.setHorizontalGroup(
+            jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 467, Short.MAX_VALUE)
+        );
+        jPanel12Layout.setVerticalGroup(
+            jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 198, Short.MAX_VALUE)
+        );
+
+        jPanel9.add(jPanel12);
+
+        jplnCentro.add(jPanel9);
+
+        jPanel10.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Ahorcado Modo Dios", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Cooper Black", 0, 14), new java.awt.Color(0, 0, 0))); // NOI18N
+        jPanel10.setForeground(new java.awt.Color(0, 0, 0));
+
+        javax.swing.GroupLayout jPanel10Layout = new javax.swing.GroupLayout(jPanel10);
+        jPanel10.setLayout(jPanel10Layout);
+        jPanel10Layout.setHorizontalGroup(
+            jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 457, Short.MAX_VALUE)
+        );
+        jPanel10Layout.setVerticalGroup(
+            jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 372, Short.MAX_VALUE)
+        );
+
+        jplnCentro.add(jPanel10);
 
         getContentPane().add(jplnCentro, java.awt.BorderLayout.CENTER);
         getContentPane().add(jplnArriba, java.awt.BorderLayout.PAGE_START);
@@ -119,15 +233,16 @@ public class Ahorcado extends javax.swing.JFrame {
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 343, Short.MAX_VALUE)
+            .addGap(0, 318, Short.MAX_VALUE)
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 100, Short.MAX_VALUE)
+            .addGap(0, 126, Short.MAX_VALUE)
         );
 
         jplnAbajo.add(jPanel1);
 
+        jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Teclado", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Cooper Black", 0, 14), new java.awt.Color(51, 51, 51))); // NOI18N
         jPanel2.setLayout(new java.awt.GridLayout(4, 7));
 
         A.setText("A");
@@ -136,80 +251,80 @@ public class Ahorcado extends javax.swing.JFrame {
         B.setText("B");
         jPanel2.add(B);
 
-        jButton3.setText("C");
-        jPanel2.add(jButton3);
+        C.setText("C");
+        jPanel2.add(C);
 
-        jButton4.setText("D");
-        jPanel2.add(jButton4);
+        D.setText("D");
+        jPanel2.add(D);
 
-        jButton5.setText("E");
-        jPanel2.add(jButton5);
+        E.setText("E");
+        jPanel2.add(E);
 
-        jButton6.setText("F");
-        jPanel2.add(jButton6);
+        F.setText("F");
+        jPanel2.add(F);
 
-        jButton7.setText("G");
-        jPanel2.add(jButton7);
+        G.setText("G");
+        jPanel2.add(G);
 
-        jButton8.setText("H");
-        jPanel2.add(jButton8);
+        H.setText("H");
+        jPanel2.add(H);
 
-        jButton9.setText("I");
-        jPanel2.add(jButton9);
+        I.setText("I");
+        jPanel2.add(I);
 
-        jButton11.setText("J");
-        jPanel2.add(jButton11);
+        J.setText("J");
+        jPanel2.add(J);
 
-        jButton12.setText("K");
-        jPanel2.add(jButton12);
+        K.setText("K");
+        jPanel2.add(K);
 
-        jButton13.setText("L");
-        jPanel2.add(jButton13);
+        L.setText("L");
+        jPanel2.add(L);
 
-        jButton14.setText("M");
-        jPanel2.add(jButton14);
+        M.setText("M");
+        jPanel2.add(M);
 
-        jButton15.setText("N");
-        jPanel2.add(jButton15);
+        N.setText("N");
+        jPanel2.add(N);
 
-        jButton16.setText("Ñ");
-        jPanel2.add(jButton16);
+        Ñ.setText("Ñ");
+        jPanel2.add(Ñ);
 
-        jButton17.setText("O");
-        jPanel2.add(jButton17);
+        O.setText("O");
+        jPanel2.add(O);
 
-        jButton18.setText("P");
-        jPanel2.add(jButton18);
+        P.setText("P");
+        jPanel2.add(P);
 
-        jButton19.setText("Q");
-        jPanel2.add(jButton19);
+        Q.setText("Q");
+        jPanel2.add(Q);
 
-        jButton20.setText("R");
-        jPanel2.add(jButton20);
+        R.setText("R");
+        jPanel2.add(R);
 
-        jButton21.setText("S");
-        jPanel2.add(jButton21);
+        S.setText("S");
+        jPanel2.add(S);
 
-        jButton22.setText("T");
-        jPanel2.add(jButton22);
+        T.setText("T");
+        jPanel2.add(T);
 
-        jButton23.setText("U");
-        jPanel2.add(jButton23);
+        U.setText("U");
+        jPanel2.add(U);
 
-        jButton24.setText("V");
-        jPanel2.add(jButton24);
+        V.setText("V");
+        jPanel2.add(V);
 
-        jButton25.setText("W");
-        jPanel2.add(jButton25);
+        W.setText("W");
+        jPanel2.add(W);
 
-        jButton26.setText("X");
-        jPanel2.add(jButton26);
+        X.setText("X");
+        jPanel2.add(X);
 
-        jButton27.setText("Y");
-        jPanel2.add(jButton27);
+        Y.setText("Y");
+        jPanel2.add(Y);
 
-        jButton28.setText("Z");
-        jPanel2.add(jButton28);
+        Z.setText("Z");
+        jPanel2.add(Z);
 
         jButton1.setText("*");
         jPanel2.add(jButton1);
@@ -220,11 +335,11 @@ public class Ahorcado extends javax.swing.JFrame {
         jPanel3.setLayout(jPanel3Layout);
         jPanel3Layout.setHorizontalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 343, Short.MAX_VALUE)
+            .addGap(0, 318, Short.MAX_VALUE)
         );
         jPanel3Layout.setVerticalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 100, Short.MAX_VALUE)
+            .addGap(0, 126, Short.MAX_VALUE)
         );
 
         jplnAbajo.add(jPanel3);
@@ -235,6 +350,10 @@ public class Ahorcado extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton5ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -274,43 +393,54 @@ public class Ahorcado extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton A;
     private javax.swing.JButton B;
+    private javax.swing.JButton C;
+    private javax.swing.JButton D;
+    private javax.swing.JButton E;
+    private javax.swing.JButton F;
+    private javax.swing.JButton G;
+    private javax.swing.JButton H;
+    private javax.swing.JButton I;
+    private javax.swing.JButton J;
+    private javax.swing.JButton K;
+    private javax.swing.JButton L;
+    private javax.swing.JButton M;
+    private javax.swing.JButton N;
+    private javax.swing.JButton O;
+    private javax.swing.JButton P;
+    private javax.swing.JButton Q;
+    private javax.swing.JButton R;
+    private javax.swing.JButton S;
+    private javax.swing.JButton T;
+    private javax.swing.JButton U;
+    private javax.swing.JButton V;
+    private javax.swing.JButton W;
+    private javax.swing.JButton X;
+    private javax.swing.JButton Y;
+    private javax.swing.JButton Z;
     private java.awt.Button button4;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton10;
-    private javax.swing.JButton jButton11;
-    private javax.swing.JButton jButton12;
-    private javax.swing.JButton jButton13;
-    private javax.swing.JButton jButton14;
-    private javax.swing.JButton jButton15;
-    private javax.swing.JButton jButton16;
-    private javax.swing.JButton jButton17;
-    private javax.swing.JButton jButton18;
-    private javax.swing.JButton jButton19;
-    private javax.swing.JButton jButton20;
-    private javax.swing.JButton jButton21;
-    private javax.swing.JButton jButton22;
-    private javax.swing.JButton jButton23;
-    private javax.swing.JButton jButton24;
-    private javax.swing.JButton jButton25;
-    private javax.swing.JButton jButton26;
-    private javax.swing.JButton jButton27;
-    private javax.swing.JButton jButton28;
+    private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
     private javax.swing.JButton jButton5;
-    private javax.swing.JButton jButton6;
-    private javax.swing.JButton jButton7;
-    private javax.swing.JButton jButton8;
-    private javax.swing.JButton jButton9;
     private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanel10;
+    private javax.swing.JPanel jPanel11;
+    private javax.swing.JPanel jPanel12;
+    private javax.swing.JPanel jPanel13;
+    private javax.swing.JPanel jPanel14;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel5;
     private javax.swing.JPanel jPanel6;
     private javax.swing.JPanel jPanel7;
+    private javax.swing.JPanel jPanel8;
+    private javax.swing.JPanel jPanel9;
     private javax.swing.JPanel jplnAbajo;
     private javax.swing.JPanel jplnArriba;
     private javax.swing.JPanel jplnCentro;
+    private javax.swing.JButton Ñ;
     // End of variables declaration//GEN-END:variables
 }
