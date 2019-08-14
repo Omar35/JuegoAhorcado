@@ -4,18 +4,26 @@
  * and open the template in the editor.
  */
 package GUi;
-import java.awt.Color;
-import java.awt.Dimension;
 
+/**
+ *
+ * @author P c
+ */
 public class Ahorcado extends javax.swing.JFrame {
 
-   
+    @Override
+    public void setSize(int i, int i1) {
+       
+    }
+
+    
     public Ahorcado() {
         initComponents();
-        setTitle("Ahorcado");// sirve par poner un titulo a la ventana
+        setSize(500, 500); 
+        setTitle("Ahorcado");
         setLocationRelativeTo(null);
-        setMinimumSize(new Dimension(200,200));
-        setDefaultCloseOperation(EXIT_ON_CLOSE);//sirve para cerrar la ventana y terminar la ejecucion
+        
+        setDefaultCloseOperation(EXIT_ON_CLOSE);
     }
 
     /**
@@ -27,11 +35,17 @@ public class Ahorcado extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        button4 = new java.awt.Button();
+        jButton10 = new javax.swing.JButton();
         jplnCentro = new javax.swing.JPanel();
+        jPanel6 = new javax.swing.JPanel();
+        jPanel7 = new javax.swing.JPanel();
         jplnArriba = new javax.swing.JPanel();
         jplnAbajo = new javax.swing.JPanel();
-        a = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
+        jPanel1 = new javax.swing.JPanel();
+        jPanel2 = new javax.swing.JPanel();
+        A = new javax.swing.JButton();
+        B = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
         jButton4 = new javax.swing.JButton();
         jButton5 = new javax.swing.JButton();
@@ -39,7 +53,6 @@ public class Ahorcado extends javax.swing.JFrame {
         jButton7 = new javax.swing.JButton();
         jButton8 = new javax.swing.JButton();
         jButton9 = new javax.swing.JButton();
-        jButton10 = new javax.swing.JButton();
         jButton11 = new javax.swing.JButton();
         jButton12 = new javax.swing.JButton();
         jButton13 = new javax.swing.JButton();
@@ -57,109 +70,164 @@ public class Ahorcado extends javax.swing.JFrame {
         jButton25 = new javax.swing.JButton();
         jButton26 = new javax.swing.JButton();
         jButton27 = new javax.swing.JButton();
+        jButton28 = new javax.swing.JButton();
+        jButton1 = new javax.swing.JButton();
+        jPanel3 = new javax.swing.JPanel();
         jPanel4 = new javax.swing.JPanel();
         jPanel5 = new javax.swing.JPanel();
+
+        button4.setLabel("button4");
+
+        jButton10.setText("jButton10");
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jplnCentro.setLayout(new java.awt.GridLayout(1, 2));
-        getContentPane().add(jplnCentro, java.awt.BorderLayout.CENTER);
 
-        javax.swing.GroupLayout jplnArribaLayout = new javax.swing.GroupLayout(jplnArriba);
-        jplnArriba.setLayout(jplnArribaLayout);
-        jplnArribaLayout.setHorizontalGroup(
-            jplnArribaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 960, Short.MAX_VALUE)
+        javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
+        jPanel6.setLayout(jPanel6Layout);
+        jPanel6Layout.setHorizontalGroup(
+            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 505, Short.MAX_VALUE)
         );
-        jplnArribaLayout.setVerticalGroup(
-            jplnArribaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        jPanel6Layout.setVerticalGroup(
+            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 422, Short.MAX_VALUE)
+        );
+
+        jplnCentro.add(jPanel6);
+
+        javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
+        jPanel7.setLayout(jPanel7Layout);
+        jPanel7Layout.setHorizontalGroup(
+            jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 505, Short.MAX_VALUE)
+        );
+        jPanel7Layout.setVerticalGroup(
+            jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 422, Short.MAX_VALUE)
+        );
+
+        jplnCentro.add(jPanel7);
+
+        getContentPane().add(jplnCentro, java.awt.BorderLayout.CENTER);
+        getContentPane().add(jplnArriba, java.awt.BorderLayout.PAGE_START);
+
+        jplnAbajo.setLayout(new java.awt.GridLayout(1, 3));
+
+        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
+        jPanel1.setLayout(jPanel1Layout);
+        jPanel1Layout.setHorizontalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 343, Short.MAX_VALUE)
+        );
+        jPanel1Layout.setVerticalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 100, Short.MAX_VALUE)
         );
 
-        getContentPane().add(jplnArriba, java.awt.BorderLayout.PAGE_START);
+        jplnAbajo.add(jPanel1);
 
-        jplnAbajo.setLayout(new java.awt.GridLayout(4, 7));
+        jPanel2.setLayout(new java.awt.GridLayout(4, 7));
 
-        a.setLabel("A");
-        jplnAbajo.add(a);
+        A.setText("A");
+        jPanel2.add(A);
 
-        jButton2.setLabel("B");
-        jplnAbajo.add(jButton2);
+        B.setText("B");
+        jPanel2.add(B);
 
-        jButton3.setLabel("C");
-        jplnAbajo.add(jButton3);
+        jButton3.setText("C");
+        jPanel2.add(jButton3);
 
-        jButton4.setLabel("D");
-        jplnAbajo.add(jButton4);
+        jButton4.setText("D");
+        jPanel2.add(jButton4);
 
-        jButton5.setLabel("E");
-        jplnAbajo.add(jButton5);
+        jButton5.setText("E");
+        jPanel2.add(jButton5);
 
         jButton6.setText("F");
-        jplnAbajo.add(jButton6);
+        jPanel2.add(jButton6);
 
-        jButton7.setLabel("G");
-        jplnAbajo.add(jButton7);
+        jButton7.setText("G");
+        jPanel2.add(jButton7);
 
-        jButton8.setLabel("H");
-        jplnAbajo.add(jButton8);
+        jButton8.setText("H");
+        jPanel2.add(jButton8);
 
-        jButton9.setLabel("I");
-        jplnAbajo.add(jButton9);
+        jButton9.setText("I");
+        jPanel2.add(jButton9);
 
-        jButton10.setLabel("J");
-        jplnAbajo.add(jButton10);
+        jButton11.setText("J");
+        jPanel2.add(jButton11);
 
-        jButton11.setLabel("K");
-        jplnAbajo.add(jButton11);
+        jButton12.setText("K");
+        jPanel2.add(jButton12);
 
-        jButton12.setLabel("L");
-        jplnAbajo.add(jButton12);
+        jButton13.setText("L");
+        jPanel2.add(jButton13);
 
-        jButton13.setLabel("M");
-        jplnAbajo.add(jButton13);
+        jButton14.setText("M");
+        jPanel2.add(jButton14);
 
-        jButton14.setLabel("N");
-        jplnAbajo.add(jButton14);
+        jButton15.setText("N");
+        jPanel2.add(jButton15);
 
-        jButton15.setLabel("Ñ");
-        jplnAbajo.add(jButton15);
+        jButton16.setText("Ñ");
+        jPanel2.add(jButton16);
 
-        jButton16.setLabel("O");
-        jplnAbajo.add(jButton16);
+        jButton17.setText("O");
+        jPanel2.add(jButton17);
 
-        jButton17.setLabel("P");
-        jplnAbajo.add(jButton17);
+        jButton18.setText("P");
+        jPanel2.add(jButton18);
 
-        jButton18.setLabel("Q");
-        jplnAbajo.add(jButton18);
+        jButton19.setText("Q");
+        jPanel2.add(jButton19);
 
-        jButton19.setLabel("R");
-        jplnAbajo.add(jButton19);
+        jButton20.setText("R");
+        jPanel2.add(jButton20);
 
-        jButton20.setLabel("S");
-        jplnAbajo.add(jButton20);
+        jButton21.setText("S");
+        jPanel2.add(jButton21);
 
-        jButton21.setLabel("T");
-        jplnAbajo.add(jButton21);
+        jButton22.setText("T");
+        jPanel2.add(jButton22);
 
-        jButton22.setLabel("U");
-        jplnAbajo.add(jButton22);
+        jButton23.setText("U");
+        jPanel2.add(jButton23);
 
-        jButton23.setLabel("V");
-        jplnAbajo.add(jButton23);
+        jButton24.setText("V");
+        jPanel2.add(jButton24);
 
-        jButton24.setLabel("W");
-        jplnAbajo.add(jButton24);
+        jButton25.setText("W");
+        jPanel2.add(jButton25);
 
-        jButton25.setLabel("X");
-        jplnAbajo.add(jButton25);
+        jButton26.setText("X");
+        jPanel2.add(jButton26);
 
-        jButton26.setLabel("Y");
-        jplnAbajo.add(jButton26);
+        jButton27.setText("Y");
+        jPanel2.add(jButton27);
 
-        jButton27.setLabel("Z");
-        jplnAbajo.add(jButton27);
+        jButton28.setText("Z");
+        jPanel2.add(jButton28);
+
+        jButton1.setText("*");
+        jPanel2.add(jButton1);
+
+        jplnAbajo.add(jPanel2);
+
+        javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
+        jPanel3.setLayout(jPanel3Layout);
+        jPanel3Layout.setHorizontalGroup(
+            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 343, Short.MAX_VALUE)
+        );
+        jPanel3Layout.setVerticalGroup(
+            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 100, Short.MAX_VALUE)
+        );
+
+        jplnAbajo.add(jPanel3);
 
         getContentPane().add(jplnAbajo, java.awt.BorderLayout.PAGE_END);
         getContentPane().add(jPanel4, java.awt.BorderLayout.LINE_END);
@@ -204,7 +272,10 @@ public class Ahorcado extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton a;
+    private javax.swing.JButton A;
+    private javax.swing.JButton B;
+    private java.awt.Button button4;
+    private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton10;
     private javax.swing.JButton jButton11;
     private javax.swing.JButton jButton12;
@@ -215,7 +286,6 @@ public class Ahorcado extends javax.swing.JFrame {
     private javax.swing.JButton jButton17;
     private javax.swing.JButton jButton18;
     private javax.swing.JButton jButton19;
-    private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton20;
     private javax.swing.JButton jButton21;
     private javax.swing.JButton jButton22;
@@ -224,6 +294,7 @@ public class Ahorcado extends javax.swing.JFrame {
     private javax.swing.JButton jButton25;
     private javax.swing.JButton jButton26;
     private javax.swing.JButton jButton27;
+    private javax.swing.JButton jButton28;
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
     private javax.swing.JButton jButton5;
@@ -231,16 +302,15 @@ public class Ahorcado extends javax.swing.JFrame {
     private javax.swing.JButton jButton7;
     private javax.swing.JButton jButton8;
     private javax.swing.JButton jButton9;
+    private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanel2;
+    private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel5;
+    private javax.swing.JPanel jPanel6;
+    private javax.swing.JPanel jPanel7;
     private javax.swing.JPanel jplnAbajo;
     private javax.swing.JPanel jplnArriba;
     private javax.swing.JPanel jplnCentro;
     // End of variables declaration//GEN-END:variables
 }
-
-
-
-
-
-
