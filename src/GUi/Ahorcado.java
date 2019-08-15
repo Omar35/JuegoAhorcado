@@ -41,15 +41,19 @@ public class Ahorcado extends javax.swing.JFrame {
         jPanel9 = new javax.swing.JPanel();
         jPanel11 = new javax.swing.JPanel();
         jPanel6 = new javax.swing.JPanel();
-        jButton2 = new javax.swing.JButton();
+        jbtnGenerar = new javax.swing.JButton();
         jPanel7 = new javax.swing.JPanel();
         jPanel13 = new javax.swing.JPanel();
-        jButton3 = new javax.swing.JButton();
+        jbtnResolver = new javax.swing.JButton();
         jPanel14 = new javax.swing.JPanel();
-        jButton4 = new javax.swing.JButton();
+        jbtnSalir = new javax.swing.JButton();
         jPanel8 = new javax.swing.JPanel();
-        jButton5 = new javax.swing.JButton();
+        jbtnInstrucciones = new javax.swing.JButton();
         jPanel12 = new javax.swing.JPanel();
+        jPanel15 = new javax.swing.JPanel();
+        txtPalabra = new javax.swing.JTextField();
+        jPanel16 = new javax.swing.JPanel();
+        jLabel1 = new javax.swing.JLabel();
         jPanel10 = new javax.swing.JPanel();
         jplnArriba = new javax.swing.JPanel();
         jplnAbajo = new javax.swing.JPanel();
@@ -101,22 +105,22 @@ public class Ahorcado extends javax.swing.JFrame {
         jPanel11.setForeground(new java.awt.Color(0, 0, 0));
         jPanel11.setLayout(new java.awt.GridLayout(3, 1));
 
-        jButton2.setFont(new java.awt.Font("Cooper Black", 0, 14)); // NOI18N
-        jButton2.setForeground(new java.awt.Color(0, 0, 0));
-        jButton2.setText("Generar palabra");
+        jbtnGenerar.setFont(new java.awt.Font("Cooper Black", 0, 14)); // NOI18N
+        jbtnGenerar.setForeground(new java.awt.Color(0, 0, 0));
+        jbtnGenerar.setText("Generar palabra");
 
         javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
         jPanel6.setLayout(jPanel6Layout);
         jPanel6Layout.setHorizontalGroup(
             jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel6Layout.createSequentialGroup()
-                .addComponent(jButton2, javax.swing.GroupLayout.DEFAULT_SIZE, 446, Short.MAX_VALUE)
+                .addComponent(jbtnGenerar, javax.swing.GroupLayout.DEFAULT_SIZE, 446, Short.MAX_VALUE)
                 .addContainerGap())
         );
         jPanel6Layout.setVerticalGroup(
             jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel6Layout.createSequentialGroup()
-                .addComponent(jButton2, javax.swing.GroupLayout.DEFAULT_SIZE, 47, Short.MAX_VALUE)
+                .addComponent(jbtnGenerar, javax.swing.GroupLayout.DEFAULT_SIZE, 47, Short.MAX_VALUE)
                 .addContainerGap())
         );
 
@@ -124,28 +128,28 @@ public class Ahorcado extends javax.swing.JFrame {
 
         jPanel7.setLayout(new java.awt.GridLayout(1, 2));
 
-        jButton3.setFont(new java.awt.Font("Cooper Black", 0, 14)); // NOI18N
-        jButton3.setForeground(new java.awt.Color(0, 0, 0));
-        jButton3.setText("Resolver");
+        jbtnResolver.setFont(new java.awt.Font("Cooper Black", 0, 14)); // NOI18N
+        jbtnResolver.setForeground(new java.awt.Color(0, 0, 0));
+        jbtnResolver.setText("Resolver");
 
         javax.swing.GroupLayout jPanel13Layout = new javax.swing.GroupLayout(jPanel13);
         jPanel13.setLayout(jPanel13Layout);
         jPanel13Layout.setHorizontalGroup(
             jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jButton3, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 228, Short.MAX_VALUE)
+            .addComponent(jbtnResolver, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 228, Short.MAX_VALUE)
         );
         jPanel13Layout.setVerticalGroup(
             jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel13Layout.createSequentialGroup()
-                .addComponent(jButton3, javax.swing.GroupLayout.DEFAULT_SIZE, 47, Short.MAX_VALUE)
+                .addComponent(jbtnResolver, javax.swing.GroupLayout.DEFAULT_SIZE, 47, Short.MAX_VALUE)
                 .addContainerGap())
         );
 
         jPanel7.add(jPanel13);
 
-        jButton4.setFont(new java.awt.Font("Cooper Black", 0, 14)); // NOI18N
-        jButton4.setForeground(new java.awt.Color(0, 0, 0));
-        jButton4.setText("Salir");
+        jbtnSalir.setFont(new java.awt.Font("Cooper Black", 0, 14)); // NOI18N
+        jbtnSalir.setForeground(new java.awt.Color(0, 0, 0));
+        jbtnSalir.setText("Salir");
 
         javax.swing.GroupLayout jPanel14Layout = new javax.swing.GroupLayout(jPanel14);
         jPanel14.setLayout(jPanel14Layout);
@@ -153,13 +157,13 @@ public class Ahorcado extends javax.swing.JFrame {
             jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel14Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jButton4, javax.swing.GroupLayout.DEFAULT_SIZE, 205, Short.MAX_VALUE)
+                .addComponent(jbtnSalir, javax.swing.GroupLayout.DEFAULT_SIZE, 205, Short.MAX_VALUE)
                 .addContainerGap())
         );
         jPanel14Layout.setVerticalGroup(
             jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel14Layout.createSequentialGroup()
-                .addComponent(jButton4, javax.swing.GroupLayout.DEFAULT_SIZE, 47, Short.MAX_VALUE)
+                .addComponent(jbtnSalir, javax.swing.GroupLayout.DEFAULT_SIZE, 47, Short.MAX_VALUE)
                 .addContainerGap())
         );
 
@@ -167,12 +171,12 @@ public class Ahorcado extends javax.swing.JFrame {
 
         jPanel11.add(jPanel7);
 
-        jButton5.setFont(new java.awt.Font("Cooper Black", 0, 14)); // NOI18N
-        jButton5.setForeground(new java.awt.Color(0, 0, 0));
-        jButton5.setText("Intrucciones");
-        jButton5.addActionListener(new java.awt.event.ActionListener() {
+        jbtnInstrucciones.setFont(new java.awt.Font("Cooper Black", 0, 14)); // NOI18N
+        jbtnInstrucciones.setForeground(new java.awt.Color(0, 0, 0));
+        jbtnInstrucciones.setText("Intrucciones");
+        jbtnInstrucciones.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton5ActionPerformed(evt);
+                jbtnInstruccionesActionPerformed(evt);
             }
         });
 
@@ -181,28 +185,63 @@ public class Ahorcado extends javax.swing.JFrame {
         jPanel8Layout.setHorizontalGroup(
             jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel8Layout.createSequentialGroup()
-                .addComponent(jButton5, javax.swing.GroupLayout.DEFAULT_SIZE, 446, Short.MAX_VALUE)
+                .addComponent(jbtnInstrucciones, javax.swing.GroupLayout.DEFAULT_SIZE, 446, Short.MAX_VALUE)
                 .addContainerGap())
         );
         jPanel8Layout.setVerticalGroup(
             jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jButton5, javax.swing.GroupLayout.DEFAULT_SIZE, 58, Short.MAX_VALUE)
+            .addComponent(jbtnInstrucciones, javax.swing.GroupLayout.DEFAULT_SIZE, 58, Short.MAX_VALUE)
         );
 
         jPanel11.add(jPanel8);
 
         jPanel9.add(jPanel11);
 
-        javax.swing.GroupLayout jPanel12Layout = new javax.swing.GroupLayout(jPanel12);
-        jPanel12.setLayout(jPanel12Layout);
-        jPanel12Layout.setHorizontalGroup(
-            jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 467, Short.MAX_VALUE)
+        jPanel12.setLayout(new java.awt.GridLayout(2, 1));
+
+        jPanel15.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Palabra", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Cooper Black", 0, 14), new java.awt.Color(0, 0, 0))); // NOI18N
+
+        txtPalabra.setToolTipText("");
+
+        javax.swing.GroupLayout jPanel15Layout = new javax.swing.GroupLayout(jPanel15);
+        jPanel15.setLayout(jPanel15Layout);
+        jPanel15Layout.setHorizontalGroup(
+            jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel15Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(txtPalabra, javax.swing.GroupLayout.DEFAULT_SIZE, 433, Short.MAX_VALUE)
+                .addContainerGap())
         );
-        jPanel12Layout.setVerticalGroup(
-            jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 198, Short.MAX_VALUE)
+        jPanel15Layout.setVerticalGroup(
+            jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel15Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(txtPalabra, javax.swing.GroupLayout.DEFAULT_SIZE, 51, Short.MAX_VALUE)
+                .addContainerGap())
         );
+
+        jPanel12.add(jPanel15);
+
+        jPanel16.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Errores", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Cooper Black", 0, 14), new java.awt.Color(0, 0, 0))); // NOI18N
+
+        javax.swing.GroupLayout jPanel16Layout = new javax.swing.GroupLayout(jPanel16);
+        jPanel16.setLayout(jPanel16Layout);
+        jPanel16Layout.setHorizontalGroup(
+            jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel16Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, 433, Short.MAX_VALUE)
+                .addContainerGap())
+        );
+        jPanel16Layout.setVerticalGroup(
+            jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel16Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(20, Short.MAX_VALUE))
+        );
+
+        jPanel12.add(jPanel16);
 
         jPanel9.add(jPanel12);
 
@@ -351,9 +390,9 @@ public class Ahorcado extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
+    private void jbtnInstruccionesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbtnInstruccionesActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton5ActionPerformed
+    }//GEN-LAST:event_jbtnInstruccionesActionPerformed
 
     /**
      * @param args the command line arguments
@@ -420,16 +459,15 @@ public class Ahorcado extends javax.swing.JFrame {
     private java.awt.Button button4;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton10;
-    private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton3;
-    private javax.swing.JButton jButton4;
-    private javax.swing.JButton jButton5;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel10;
     private javax.swing.JPanel jPanel11;
     private javax.swing.JPanel jPanel12;
     private javax.swing.JPanel jPanel13;
     private javax.swing.JPanel jPanel14;
+    private javax.swing.JPanel jPanel15;
+    private javax.swing.JPanel jPanel16;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
@@ -438,9 +476,14 @@ public class Ahorcado extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel7;
     private javax.swing.JPanel jPanel8;
     private javax.swing.JPanel jPanel9;
+    private javax.swing.JButton jbtnGenerar;
+    private javax.swing.JButton jbtnInstrucciones;
+    private javax.swing.JButton jbtnResolver;
+    private javax.swing.JButton jbtnSalir;
     private javax.swing.JPanel jplnAbajo;
     private javax.swing.JPanel jplnArriba;
     private javax.swing.JPanel jplnCentro;
+    private javax.swing.JTextField txtPalabra;
     private javax.swing.JButton Ñ;
     // End of variables declaration//GEN-END:variables
 }
